@@ -3,32 +3,68 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: "friends.kegongteng.cn/:path*",
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "friends.kegongteng.cn",
+          },
+        ],
         destination: "https://hey.kegongteng.cn/:path*",
         permanent: true,
       },
       {
-        source: "www.kegongteng.cn/:path*",
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "www.kegongteng.cn",
+          },
+        ],
         destination: "https://kegongteng.cn/:path*",
         permanent: true,
       },
       {
-        source: "kegongteng.top/:path*",
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "kegongteng.top",
+          },
+        ],
         destination: "https://kegongteng.cn/:path*",
         permanent: true,
       },
       {
-        source: "robot.kegongteng.cn/:path*",
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "robot.kegongteng.cn",
+          },
+        ],
         destination: "https://kegongteng.cn/:path*",
         permanent: true,
       },
       {
-        source: "my.spircape.com",
+        source: "/",
+        has: [
+          {
+            type: "host",
+            value: "my.spircape.com",
+          },
+        ],
         destination: "https://myapps.microsoft.com/?whr=spircape.com",
         permanent: true,
       },
       {
-        source: "box.ofhe.cn/:path*",
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "box.ofhe.cn",
+          },
+        ],
         destination: "https://pan.ofhe.cn/:path*",
         permanent: true,
       },
