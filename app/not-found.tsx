@@ -4,8 +4,8 @@ export default function NotFound() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 px-4">
       <div className="max-w-md w-full bg-white p-8 rounded-lg shadow-md">
-        <h1 className="text-2xl font-bold text-gray-800 mb-4">域名未配置</h1>
-        <p className="text-gray-600 mb-6">您访问的域名尚未在我们的系统中配置，请联系管理员提交接入申请。</p>
+        <h1 className="text-2xl font-bold text-gray-800 mb-4">域名跳转</h1>
+        <p className="text-gray-600 mb-6">你可通过以下方法，完成域名接入</p>
         <div className="bg-gray-100 p-4 rounded-md mb-6">
           <h2 className="text-lg font-medium text-gray-700 mb-2">接入申请流程：</h2>
           <ol className="list-decimal list-inside text-gray-600 space-y-2">
