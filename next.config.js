@@ -62,10 +62,10 @@ const nextConfig = {
         has: [
           {
             type: "host",
-            value: "box.ofhe.cn",
+            value: "pan.ofhe.cn",
           },
         ],
-        destination: "https://pan.ofhe.cn/:path*",
+        destination: "https://box.ofhe.cn/:path*",
         permanent: true,
       },
     ]
