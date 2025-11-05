@@ -7,40 +7,7 @@ const nextConfig = {
         has: [
           {
             type: "host",
-            value: "friends.kegongteng.cn",
-          },
-        ],
-        destination: "https://hey.kegongteng.cn/:path*",
-        permanent: true,
-      },
-      {
-        source: "/:path*",
-        has: [
-          {
-            type: "host",
             value: "www.kegongteng.cn",
-          },
-        ],
-        destination: "https://kegongteng.cn/:path*",
-        permanent: true,
-      },
-      {
-        source: "/:path*",
-        has: [
-          {
-            type: "host",
-            value: "kegongteng.top",
-          },
-        ],
-        destination: "https://kegongteng.cn/:path*",
-        permanent: true,
-      },
-      {
-        source: "/:path*",
-        has: [
-          {
-            type: "host",
-            value: "robot.kegongteng.cn",
           },
         ],
         destination: "https://kegongteng.cn/:path*",
@@ -58,14 +25,25 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/:path*",
+        source: "/410photo",
         has: [
           {
             type: "host",
-            value: "pan.ofhe.cn",
+            value: "go.ofhe.cn",
           },
         ],
-        destination: "https://box.ofhe.cn/:path*",
+        destination: "https://box.zhhi.cn/s/5Qt9",
+        permanent: true,
+      },
+      {
+        source: "/159-20250930",
+        has: [
+          {
+            type: "host",
+            value: "go.ofhe.cn",
+          },
+        ],
+        destination: "https://box.zhhi.cn/s/JGSV",
         permanent: true,
       },
     ]
