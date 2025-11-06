@@ -20,7 +20,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold text-black mb-4">418 - I'm a teapot</h1>
 
       {/* Description */}
-      <p className="text-lg text-gray-700 mb-8 max-w-md">你请求了冲泡咖啡，但我只是一只茶壶，无法完成这个请求。</p>
+      <p className="text-lg text-gray-700 mb-8 max-w-md">你请求了冲泡咖啡，但我只是一只茶壶</p>
       
     </div>
   )
