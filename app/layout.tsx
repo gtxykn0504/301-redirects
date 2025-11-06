@@ -1,20 +1,24 @@
-import type React from "react"
-import "./globals.css"
-import type { Metadata } from "next"
+import type { Metadata } from 'next'
+import { Geist, Geist_Mono } from 'next/font/google'
+import './globals.css'
+
+const _geist = Geist({ subsets: ["latin"] });
+const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "域名重定向",
-  description: "域名重定向配置",
+  title: '418 Teapot',
 }
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode
-}) {
+}>) {
   return (
-    <html lang="zh">
-      <body>{children}</body>
+    <html lang="zh-cn">
+      <body className={`font-sans antialiased`}>
+        {children}
+      </body>
     </html>
   )
 }
