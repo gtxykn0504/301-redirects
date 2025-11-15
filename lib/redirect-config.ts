@@ -10,8 +10,8 @@ export const redirectRules = {
   "go.ofhe.cn": {
     type: "path",
     routes: {
-      "/410photo": "https://box.zhhi.cn/s/dGHb",
-      "/159-20250930": "https://box.zhhi.cn/s/yvib",
+      "/410photo": "https://box.ofhe.cn/s/dGHb",
+      "/159-20250930": "https://box.ofhe.cn/s/yvib",
     },
   },
 }
